@@ -7,16 +7,16 @@ import {Form} from './Form/Form';
 import {Footer} from './Footer/Footer';
 
 const App = () => {
-    return (
-        <div className="App">
-            <Header/>
-            <Main/>
-            <Skills/>
-            <Projects/>
-            <Form/>
-            <Footer/>
-        </div>
-    );
+  return (
+      <div className="App">
+        <Header/>
+        <Main/>
+        <Skills/>
+        <Projects/>
+        <Form/>
+        <Footer/>
+      </div>
+  );
 }
 
 export default App;

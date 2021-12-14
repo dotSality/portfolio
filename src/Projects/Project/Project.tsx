@@ -1,6 +1,11 @@
 import s from './Project.module.css'
 
-export const Project = (props) => {
+type ProjectPropsType = {
+    title: string,
+    description: string,
+}
+
+export const Project = (props: ProjectPropsType) => {
     return (
         <div className={s.item}>
             <div className={s.imageContainer}>

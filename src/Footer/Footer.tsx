@@ -1,6 +1,6 @@
 import s_c from './../common/styles/Container.module.css'
 import s from './Footer.module.css'
-import {Link} from '../Form/Link/Link';
+import {Link} from './Link/Link';
 
 
 export const Footer = () => {
