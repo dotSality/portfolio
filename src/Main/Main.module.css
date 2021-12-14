@@ -1,0 +1,17 @@
+.mainBlock {
+    height: 100vh;
+    background-color: rgba(128,217,232,0.76);
+    padding: 10% 0 10% 0;
+}
+
+.introduction {
+    width: 350px;
+    background-color: rgba(159,168,171,0.76);
+}
+
+.photo {
+    width: 400px;
+    height: 60%;
+    background-color: rgba(159,168,171,0.76);
+    text-align: center;
+}

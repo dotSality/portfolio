@@ -1,0 +1,26 @@
+.mainBlock {
+    min-height: content-box;
+    background-color: #cccfff;
+    padding: 10% 0 10% 0;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 2px solid;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: yellow;
+}
+
+.itemContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2%;
+}

@@ -1,0 +1,10 @@
+.contentContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    border: 2px solid;
+}

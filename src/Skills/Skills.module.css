@@ -1,0 +1,24 @@
+.mainBlock {
+    min-height: content-box;
+    background-color: rgba(255,226,79,0.76);
+    padding: 10% 0 10% 0;
+}
+
+.skillContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    background-color: #bfbeff;
+}
+
+.itemContainer {
+    border: 1px solid;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2%;
+}
