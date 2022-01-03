@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    border: 1px solid black;
+    background-color: #181715;
     width: 400px;
     box-sizing: border-box;
 }
@@ -20,15 +20,15 @@
 }
 
 .previewButton {
-    /*position: relative;*/
-    border: 1px solid grey;
     background-color: #dfe1ff;
     text-align: center;
     height: 8%;
     min-width: 40%;
     padding: 2%;
-    /*top: 45%;*/
-    /*left: 33%;*/
+}
+
+.title {
+
 }
 
 .description {

@@ -1,9 +1,10 @@
 .item {
     display: flex;
     flex-direction: column;
+    padding: 30px;
     align-items: center;
-    width: 250px;
-    background-color: #bfbeff;
+    background-color: #181715;
+    width: 350px;
     text-align: center;
     box-sizing: border-box;
 }

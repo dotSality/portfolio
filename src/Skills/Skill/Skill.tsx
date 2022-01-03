@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Skill.module.css'
+import {ItemTitle} from '../../common/components/Titles/h3/ItemTitle';
 
 type SkillPropsType = {
     title: string,
@@ -10,7 +11,7 @@ export const Skill = (props: SkillPropsType) => {
     return (
         <div className={s.item}>
             <div className={s.photo}>Photo</div>
-            <h3 className={s.name}>{props.title}</h3>
+            <ItemTitle title={props.title}/>
             <span className={s.description}>{props.description}</span>
         </div>
     )

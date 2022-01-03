@@ -1,13 +1,11 @@
 .mainBlock {
     min-height: content-box;
-    background-color: #cccfff;
     padding: 10% 0 10% 0;
 }
 
 .container {
     flex-direction: column;
     justify-content: flex-start;
-    border: 2px solid;
     margin: 0 auto;
 }
 

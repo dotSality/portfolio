@@ -1,4 +1,5 @@
 import s from './Project.module.css'
+import {ItemTitle} from '../../common/components/Titles/h3/ItemTitle';
 
 type ProjectPropsType = {
     title: string,
@@ -12,10 +13,10 @@ export const Project = (props: ProjectPropsType) => {
                 <a href={''} className={s.previewButton}>Click to preview</a>
             </div>
             <div className={s.description}>
-                <h3 style={{margin: '1% 0'}}>{props.title}</h3>
-                <h4 style={{margin: '3% 0'}}>
+                <ItemTitle title={props.title}/>
+                <span className={s.description}>
                     {props.description}
-                </h4>
+                </span>
             </div>
         </div>
     )
