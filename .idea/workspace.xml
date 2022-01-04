@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89669573-4e88-4588-aac7-64bee6b6d2e0" name="Changes" comment="added svg-icons in skill components, added svg-icons in footer block, few cosmetic changes">
+    <list default="true" id="89669573-4e88-4588-aac7-64bee6b6d2e0" name="Changes" comment="changed description block in skill component, added some cosmetic features">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Skills/Skill/Skill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skill/Skill.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Skills/Skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skill/Skill.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/image/imports/skillsPaths.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/image/imports/skillsPaths.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,7 @@
       <workItem from="1641215778812" duration="5352000" />
       <workItem from="1641243942187" duration="8638000" />
       <workItem from="1641291592804" duration="13574000" />
-      <workItem from="1641324056257" duration="10011000" />
+      <workItem from="1641324056257" duration="13293000" />
     </task>
     <task id="LOCAL-00001" summary="some changes in package.json">
       <created>1639520680107</created>
@@ -106,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641332089074</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changed description block in skill component, added some cosmetic features">
+      <created>1641336100039</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1641336100039</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +135,7 @@
     <MESSAGE value="cosmetic changes" />
     <MESSAGE value="filled some styles, added SASS and refactored code" />
     <MESSAGE value="added svg-icons in skill components, added svg-icons in footer block, few cosmetic changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added svg-icons in skill components, added svg-icons in footer block, few cosmetic changes" />
+    <MESSAGE value="changed description block in skill component, added some cosmetic features" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed description block in skill component, added some cosmetic features" />
   </component>
 </project>

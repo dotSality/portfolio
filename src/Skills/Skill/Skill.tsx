@@ -14,7 +14,9 @@ export const Skill = (props: SkillPropsType) => {
             <div style={{backgroundImage: `url(${props.backgroundImage})`}}
                 className={s.photo}></div>
             <ItemTitle title={props.title}/>
-            <span className={s.description}>{props.description}</span>
+            <div className={s.spanCont}>
+                <span className={s.description}>{props.description}</span>
+            </div>
         </div>
     )
 }

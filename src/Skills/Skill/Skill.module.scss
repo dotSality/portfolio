@@ -11,24 +11,23 @@
   width: 350px;
   text-align: center;
   box-sizing: border-box;
-  transition: 0.5s;
+  transition: all 0.5s;
+  user-select: none;
 
-  ::before {
-    content:'';
+  &::before {
+    content: '';
     position: absolute;
     inset: 0 0 0 0;
     background: black;
     opacity: 0;
-    transition: 0.5s;
   }
 
   &:hover::before {
-    content:'';
+    content: '';
     position: absolute;
     inset: 0 0 0 0;
     background: black;
     opacity: 0.8;
-    transition: 0.5s;
   }
 
   .photo {
@@ -39,16 +38,24 @@
     background-position: center;
   }
 
-  .description {
+  .spanCont {
     position: absolute;
+    display: flex;
+    flex-direction: row;
+    inset: 0 0 0 0;
+    align-items: center;
     width: 100%;
     height: 100%;
-    padding: 10px;
-    font-size: 20px;
-    opacity: 0;
-    transition: 0.5s;
 
-    &:hover {
+    .description {
+      width: 100%;
+      height: content-box;
+      padding: 10px;
+      font-size: 20px;
+      opacity: 0;
+    }
+
+    &:hover .description {
       opacity: 1;
       transition: 0.5s;
     }
