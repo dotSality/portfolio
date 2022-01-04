@@ -4,24 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89669573-4e88-4588-aac7-64bee6b6d2e0" name="Changes" comment="some changes in package.json">
-      <change afterPath="$PROJECT_DIR$/src/common/components/Titles/h2/Title.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/Titles/h2/Title.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/Titles/h3/ItemTitle.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/Titles/h3/ItemTitle.tsx" afterDir="false" />
+    <list default="true" id="89669573-4e88-4588-aac7-64bee6b6d2e0" name="Changes" comment="some cosmetic updates, created 2 components for block and item titles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/Form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Form.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/Project/Project.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Project/Project.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/Project/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Project/Project.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Skills/Skill/Skill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skill/Skill.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills/Skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skill/Skill.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/styles/Container.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/Container.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/Titles/h2/Title.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Titles/h2/Title.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/Titles/h3/ItemTitle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Titles/h3/ItemTitle.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +67,8 @@
       <workItem from="1639520215556" duration="549000" />
       <workItem from="1639561898209" duration="193000" />
       <workItem from="1641215778812" duration="5352000" />
-      <workItem from="1641243942187" duration="8571000" />
+      <workItem from="1641243942187" duration="8638000" />
+      <workItem from="1641291592804" duration="5999000" />
     </task>
     <task id="LOCAL-00001" summary="some changes in package.json">
       <created>1639520680107</created>
@@ -84,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639520680107</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="some cosmetic updates, created 2 components for block and item titles">
+      <created>1641254056161</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641254056161</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some changes in package.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes in package.json" />
+    <MESSAGE value="some cosmetic updates, created 2 components for block and item titles" />
+    <option name="LAST_COMMIT_MESSAGE" value="some cosmetic updates, created 2 components for block and item titles" />
   </component>
 </project>

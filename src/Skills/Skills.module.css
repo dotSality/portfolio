@@ -17,7 +17,13 @@
     margin-bottom: 2%;
 }
 
-@media screen and (max-width: 632px) {
+@media screen and (max-width: 1312px) {
+    .itemContainer {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 874px) {
     .itemContainer {
         justify-content: center;
     }
