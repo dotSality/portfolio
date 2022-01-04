@@ -1,5 +1,5 @@
-import s_c from './../common/styles/Container.module.css'
-import s from './Form.module.css'
+import s_c from '../common/styles/Container.module.scss'
+import s from './Form.module.scss'
 import {Title} from '../common/components/Titles/h2/Title';
 
 export const Form = () => {

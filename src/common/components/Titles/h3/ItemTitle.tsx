@@ -1,4 +1,4 @@
-import s from './ItemTitle.module.css'
+import s from './ItemTitle.module.scss'
 
 type ItemTitlePropsType = {
     title: string

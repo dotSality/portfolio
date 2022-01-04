@@ -1,4 +1,4 @@
-import s from './Title.module.css';
+import s from './Title.module.scss';
 import React from 'react';
 
 type TitlePropsType = {

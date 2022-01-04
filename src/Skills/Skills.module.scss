@@ -1,0 +1,30 @@
+.mainBlock {
+  min-height: content-box;
+  padding: 10% 0 10% 0;
+
+  .skillContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .itemContainer {
+      flex-wrap: wrap;
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 2%;
+
+      @media screen and (max-width: 1312px) {
+        justify-content: space-around;
+      }
+
+      @media screen and (max-width: 874px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+
+

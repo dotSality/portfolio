@@ -1,4 +1,4 @@
-import s from './Project.module.css'
+import s from './Project.module.scss'
 import {ItemTitle} from '../../common/components/Titles/h3/ItemTitle';
 
 type StyleType = {
@@ -15,12 +15,10 @@ export const Project = (props: ProjectPropsType) => {
     return (
         <div className={s.item}>
             <div style={props.style} className={s.imageContainer}>
-                <a href={''} className={s.previewButton}>Click to preview</a>
+                <span className={s.previewButton}>Click to preview</span>
             </div>
-                <ItemTitle title={props.title}/>
-                <span className={s.description}>
-                    {props.description}
-                </span>
+            <ItemTitle title={props.title}/>
+            <span className={s.description}>{props.description}</span>
         </div>
     )
 }

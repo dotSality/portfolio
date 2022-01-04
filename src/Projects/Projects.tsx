@@ -1,6 +1,6 @@
-import s from './Projects.module.css'
+import s from './Projects.module.scss'
 import {Project} from './Project/Project';
-import s_c from './../common/styles/Container.module.css'
+import s_c from '../common/styles/Container.module.scss'
 import {Title} from '../common/components/Titles/h2/Title';
 import preview from './../assets/image/no-preview.jpg';
 

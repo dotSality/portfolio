@@ -1,0 +1,21 @@
+@import './src/common/styles/sass/variables';
+
+.mainBlock {
+  height: 100vh;
+  padding: 10% 0 10% 0;
+  color: $headColor;
+
+  .introduction {
+    width: 350px;
+  }
+
+  .photo {
+    width: 400px;
+    height: 60%;
+    background-color: rgba(159, 168, 171, 0.76);
+    text-align: center;
+  }
+}
+
+
+

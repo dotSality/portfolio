@@ -1,0 +1,28 @@
+@import './src/common/styles/sass/variables';
+
+.item {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  background-color: $itemBGColor;
+  width: 350px;
+  text-align: center;
+  box-sizing: border-box;
+
+  .photo {
+    width: 60px;
+    height: 60px;
+    background-color: #d0dcd7;
+  }
+
+  .description {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+
+
+

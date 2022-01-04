@@ -1,5 +1,5 @@
-import s from './Main.module.css'
-import s_c from './../common/styles/Container.module.css'
+import s from './Main.module.scss'
+import s_c from '../common/styles/Container.module.scss'
 
 export const Main = () => {
     return (

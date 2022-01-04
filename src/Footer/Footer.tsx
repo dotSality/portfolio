@@ -1,5 +1,5 @@
-import s_c from './../common/styles/Container.module.css'
-import s from './Footer.module.css'
+import s_c from '../common/styles/Container.module.scss'
+import s from './Footer.module.scss'
 import {Link} from './Link/Link';
 
 

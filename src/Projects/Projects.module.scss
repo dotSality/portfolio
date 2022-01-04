@@ -1,0 +1,20 @@
+.mainBlock {
+    min-height: content-box;
+    padding: 10% 0 10% 0;
+
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0 auto;
+
+        .itemContainer {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 2%;
+        }
+    }
+}

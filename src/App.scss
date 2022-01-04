@@ -1,0 +1,17 @@
+@import './src/common/styles/sass/variables';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  body {
+    font-family: $fontFamily;
+    background-color: $bodyBGColor;
+    color: $descriptionColor;
+
+    h1, h2, h3 {
+      color: $headColor;
+    }
+  }
+}

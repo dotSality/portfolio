@@ -1,4 +1,4 @@
-import s from './Link.module.css'
+import s from './Link.module.scss'
 
 export const Link = () => {
     return (
