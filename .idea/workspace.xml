@@ -4,38 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89669573-4e88-4588-aac7-64bee6b6d2e0" name="Changes" comment="cosmetic changes">
-      <change afterPath="$PROJECT_DIR$/src/common/styles/sass/variables.scss" afterDir="false" />
+    <list default="true" id="89669573-4e88-4588-aac7-64bee6b6d2e0" name="Changes" comment="filled some styles, added SASS and refactored code">
+      <change afterPath="$PROJECT_DIR$/src/assets/image/imports/skillsPaths.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer/Link/Link.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Link/Link.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Link/Link.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Link/Link.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Footer/Link/Link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Link/Link.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/Form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Form.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Nav/Nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nav/Nav.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nav/Nav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Project/Project.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Project/Project.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Project/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Project/Project.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills/Skill/Skill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skill/Skill.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Skills/Skill/Skill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skill/Skill.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Skills/Skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skill/Skill.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/Titles/h2/Title.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Titles/h2/Title.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/Titles/h2/Title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Titles/h2/Title.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/Titles/h3/ItemTitle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Titles/h3/ItemTitle.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/Titles/h3/ItemTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Titles/h3/ItemTitle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/styles/Container.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/Container.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +27,7 @@
       <list>
         <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -74,6 +55,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JS\it-incubator\portfolio\src\components" />
+      <recent name="E:\JS\it-incubator\portfolio\src\assets\image\imports" />
       <recent name="E:\JS\it-incubator\portfolio\src\common\components\Titles\h2" />
     </key>
   </component>
@@ -90,7 +73,8 @@
       <workItem from="1639561898209" duration="193000" />
       <workItem from="1641215778812" duration="5352000" />
       <workItem from="1641243942187" duration="8638000" />
-      <workItem from="1641291592804" duration="13535000" />
+      <workItem from="1641291592804" duration="13574000" />
+      <workItem from="1641324056257" duration="6000000" />
     </task>
     <task id="LOCAL-00001" summary="some changes in package.json">
       <created>1639520680107</created>
@@ -113,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641298202247</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="filled some styles, added SASS and refactored code">
+      <created>1641305829894</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641305829894</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +126,7 @@
     <MESSAGE value="some changes in package.json" />
     <MESSAGE value="some cosmetic updates, created 2 components for block and item titles" />
     <MESSAGE value="cosmetic changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="cosmetic changes" />
+    <MESSAGE value="filled some styles, added SASS and refactored code" />
+    <option name="LAST_COMMIT_MESSAGE" value="filled some styles, added SASS and refactored code" />
   </component>
 </project>

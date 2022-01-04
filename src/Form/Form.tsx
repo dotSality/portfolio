@@ -6,11 +6,12 @@ export const Form = () => {
     return (
         <div className={s.mainBlock}>
             <div className={`${s_c.contentContainer} ${s.container}`}>
-               <Title title={'Contact me'}/>
+                <Title title={'Contact me'}/>
                 <form className={s.form}>
-                    <input style={{marginBottom: '2%'}} type="text"/>
-                    <input style={{marginBottom: '2%'}} type="text"/>
-                    <textarea rows={7}></textarea>
+                        <input placeholder={'E-mail'} style={{marginBottom: '2%'}} type="text"/>
+                        <input placeholder={'Phone'} style={{marginBottom: '2%'}} type="text"/>
+                    <input placeholder={'your name'} style={{marginBottom: '2%'}} type="text"/>
+                    <textarea rows={5}></textarea>
                 </form>
                 <button> Submit</button>
             </div>

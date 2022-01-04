@@ -14,7 +14,9 @@
   .photo {
     width: 60px;
     height: 60px;
-    background-color: #d0dcd7;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .description {

@@ -15,12 +15,23 @@
         }
 
         .linksContainer {
-            border: 3px solid;
             display: flex;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
             width: 280px;
+
+            @media screen and (min-width: 512px) {
+                width: 60%;
+            }
+
+            @media screen and (min-width: 769px) {
+                width: 50%;
+            }
+
+            @media screen and (min-width: 861px) {
+                width: 40%;
+            }
         }
     }
 
