@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import s from './Skill.module.scss'
 import {ItemTitle} from '../../common/components/Titles/h3/ItemTitle';
 

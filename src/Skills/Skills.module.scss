@@ -14,7 +14,7 @@
       width: 100%;
       margin-bottom: 2%;
 
-      @media screen and (max-width: 1312px) {
+      @media screen and (min-width: 1312px) {
         justify-content: space-around;
       }
 
