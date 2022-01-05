@@ -10,7 +10,7 @@ export const Main = () => {
                 <div className={s.introduction}>
                     <ItemTitle title={'Hello there'}/>
                     <Title title={'My name is Maxim'}/>
-                    <ItemTitle title={'And i am front-end developer'}/>
+                    <ItemTitle title={'I am front-end developer and FES ESFSEFBJFUE FHK FFES EH EE FES FH HUEF SFIESESSHI '}/>
                 </div>
                 <div className={s.photo}>PHOTO</div>
             </div>

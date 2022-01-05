@@ -1,0 +1,70 @@
+@import './src/common/styles/sass/variables';
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+
+  .input {
+    display: block;
+    border: 1px solid rgba(255, 255, 255, .2);
+    color: $inputTextColor;
+    font-size: 18px;
+    width: 100%;
+    line-height: 70px;
+    height: 70px;
+    border-radius: 2px;
+    outline: none;
+    background-color: transparent;
+    padding: 0 20px;
+    z-index: 3;
+    transition: all 0.3s ease;
+
+    &:hover {
+      border: 1px solid $hoveredInputBorder;
+    }
+
+    &:focus, &:valid {
+      border: 1px solid $customInputOutlineActive;
+
+      & ~ .movingSpan {
+        color: $customInputOutlineActive;
+        font-size: 20px;
+        transform: scale(.75) translateY(-85%);
+        top: 0;
+        transition: all 0.3s;
+
+        @media screen and (max-width: 512px) {
+          transform: scale(.75) translateY(-85%) translateX(10%);
+        }
+      }
+    }
+  }
+
+  .movingSpan {
+    position: absolute;
+    display: inline-block;
+    color: $descriptionColor;
+    background-color: $bodyBGColor;
+    //max-width: 100%;
+    margin: 0;
+    padding: 0 15px;
+    user-select: none;
+    font-size: 20px;
+    top: 50%;
+    transform: translate(50%, -50%);
+    z-index: 1;
+    text-overflow: ellipsis;
+    pointer-events: none;
+    transition: all 0.3s;
+
+    @media screen and (max-width: 768px) {
+      padding: 0 10px;
+    }
+
+    @media screen and (max-width: 512px) {
+      padding: 0 5px;
+    }
+  }
+}

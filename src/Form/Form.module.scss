@@ -1,5 +1,5 @@
 .mainBlock {
-  height: 70vh;
+  height: 50vh;
   padding: 5% 0 5% 0;
 
   .container {
@@ -16,26 +16,22 @@
       input {
         min-width: 50%;
       }
+
       textarea {
         min-width: 50%;
       }
 
-      @media screen and (max-width: 768px) {
-        input {
-          width: 70%;
-        }
-        textarea {
-          width: 70%;
-        }
+      .inputs {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
       }
-      @media screen and (max-width: 512px) {
-        input {
-          width: 100%;
-        }
 
-        textarea {
-          width: 100%;
-        }
+      @media screen and (min-width: 768px) {
+        width: 80%;
+      }
+      @media screen and (min-width: 1024px) {
+        width: 60%;
       }
     }
   }
