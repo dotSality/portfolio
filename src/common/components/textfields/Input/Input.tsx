@@ -1,23 +1,24 @@
-import React from 'react';
+import React, {DetailedHTMLProps, InputHTMLAttributes} from 'react';
 import s from './CustomInput.module.scss'
 
-type CustomInputPropsType = {
+type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
+
+type CustomInputPropsType = DefaultInputPropsType & {
     placeholderText?: string,
     customClassName?: string,
-    // field: 'input' | 'textarea'
 }
 
 export const Input: React.FC<CustomInputPropsType> = (
     {
         customClassName,
         placeholderText,
-        // field
+        ...restProps
     }
 ) => {
     const finalClassName = `${s.input} ${customClassName && customClassName}`
     return (
         <div className={s.container}>
-            <input required type={'text'} className={finalClassName}/>
+            <input {...restProps} required type={'text'} className={finalClassName}/>
             {placeholderText && <span  className={s.movingSpan}>{placeholderText}</span>}
         </div>
     )

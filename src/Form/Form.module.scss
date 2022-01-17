@@ -1,5 +1,7 @@
+@import '/src/common/styles/sass/variables';
+
 .mainBlock {
-  height: 50vh;
+  min-height: 50vh;
   padding: 5% 0 5% 0;
 
   .container {
@@ -25,6 +27,35 @@
         display: flex;
         flex-direction: row;
         width: 100%;
+      }
+
+      @media screen and (min-width: 768px) {
+        width: 80%;
+      }
+      @media screen and (min-width: 1024px) {
+        width: 60%;
+      }
+    }
+
+    .button {
+      margin-top: 10px;
+      width: 100%;
+      height: 50px;
+      outline: none;
+      border: 1px solid rgba(255, 255, 255, .2);
+      background-color: $bodyBGColor;
+      color: $descriptionColor;
+      font-size: 18px;
+      font-family: $fontFamily;
+
+      &:hover {
+        border: 2px solid $customInputOutlineActive;
+        color: $customInputOutlineActive;
+
+        &:active {
+          outline: 1px dotted $customInputOutlineActive;
+          border: none;
+        }
       }
 
       @media screen and (min-width: 768px) {

@@ -1,7 +1,7 @@
 @import './src/common/styles/sass/variables';
 
 .mainBlock {
-  height: 100vh;
+  min-height: 100vh;
   padding: 10% 0 10% 0;
   color: $headColor;
 
@@ -10,10 +10,22 @@ max-width: 500px;
   }
 
   .photo {
-    width: 400px;
-    height: 60%;
+    width: 40%;
+    height: auto;
     background-color: rgba(159, 168, 171, 0.76);
     text-align: center;
+
+    @media screen and (max-width: 1042px) {
+      width: 60%;
+    }
+
+    @media screen and (max-width: 750px) {
+      width: 75%;
+    }
+
+    @media screen and (max-width: 500px) {
+      width: 90%;
+    }
   }
 }
 

@@ -21,7 +21,7 @@ export const Footer = () => {
                     <Link backgroundImage={instagram}
                      href={'https://www.instagram.com/the.sality/'}/>
                     <Link backgroundImage={linkedIn}
-                     href={'#'}/>
+                     href={'https://www.linkedin.com/in/maxim-ostapkevich-37073822b/'}/>
                 </div>
                 <h2>© 2021 All copyright reserved</h2>
             </div>

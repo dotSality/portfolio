@@ -14,10 +14,8 @@ export const Form = () => {
                         <Input placeholderText={'Name*'}/>
                     </div>
                     <Input placeholderText={'Phone'}/>
-
-
                 </form>
-                <button> Submit</button>
+                <button className={s.button}>Send me a message</button>
             </div>
         </div>
     )
