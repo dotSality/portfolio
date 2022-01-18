@@ -19,10 +19,8 @@ export const Project = (props: ProjectPropsType) => {
             <div style={{backgroundImage: `url(${props.bgI})`}} onClick={onActive}
                 className={s.imageContainer}></div>
             <ItemTitle title={props.title}/>
-
             {active && <ModalWindow active={active} setActive={setActive}>
                 <div className={s.childrenImage}>
-
                 </div>
                 <span className={s.description}>{props.description}</span>
             </ModalWindow>}

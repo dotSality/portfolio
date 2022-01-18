@@ -5,36 +5,6 @@
     padding: 10% 0 5% 0;
     position: relative;
 
-    .container {
-        width: 100%;
-        flex-direction: column;
-        justify-content: space-between;
-
-        h2 {
-            text-align: center;
-        }
-
-        .linksContainer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            width: 280px;
-
-            @media screen and (min-width: 512px) {
-                width: 60%;
-            }
-
-            @media screen and (min-width: 769px) {
-                width: 50%;
-            }
-
-            @media screen and (min-width: 861px) {
-                width: 40%;
-            }
-        }
-    }
-
     &::before {
         position: absolute;
         content: '';

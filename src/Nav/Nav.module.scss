@@ -1,5 +1,16 @@
+@import '/src/common/styles/sass/variables';
+
 .nav {
     display: flex;
     justify-content: space-between;
     width: 300px;
+
+    & a {
+        color: $inputTextColor;
+    }
+
+    & a:hover {
+        color: $customInputOutlineActive;
+        text-decoration: underline;
+    }
 }

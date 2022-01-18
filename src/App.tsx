@@ -5,18 +5,20 @@ import {Skills} from './Skills/Skills';
 import {Projects} from './Projects/Projects';
 import {Form} from './Form/Form';
 import {Footer} from './Footer/Footer';
+import {Links} from './Links/Links';
 
 const App = () => {
-  return (
-      <div className="App">
-        <Header/>
-        <Main/>
-        <Skills/>
-        <Projects/>
-        <Form/>
-        <Footer/>
-      </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <Main/>
+            <Skills/>
+            <Projects/>
+            <Form/>
+            <Footer/>
+            <Links/>
+        </div>
+    );
 }
 
 export default App;

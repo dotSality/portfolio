@@ -1,0 +1,29 @@
+@import '/src/common/styles/sass/variables';
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  margin: 10px 2px;
+
+  & a {
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    &:hover {
+      width: 90%;
+      height: 90%;
+    }
+
+    &:active {
+      width: 80%;
+      height: 80%;
+    }
+  }
+}

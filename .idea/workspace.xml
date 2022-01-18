@@ -4,12 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89669573-4e88-4588-aac7-64bee6b6d2e0" name="Changes" comment="created modal window component without content">
+    <list default="true" id="89669573-4e88-4588-aac7-64bee6b6d2e0" name="Changes" comment="corrected modal size with media-queries, added some styles and elements for description and project image">
+      <change afterPath="$PROJECT_DIR$/src/Links/Link/Link.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Links/Link/Link.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Links/Links.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Links/Links.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/Form.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Form.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Nav/Nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nav/Nav.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/Project/Project.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Project/Project.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/Project/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Project/Project.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/Titles/h2/Title.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Titles/h2/Title.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/Titles/h2/Title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Titles/h2/Title.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/Titles/h3/ItemTitle.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Titles/h3/ItemTitle.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/Titles/h3/ItemTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Titles/h3/ItemTitle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/components/modal/ModalWindow.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/modal/ModalWindow.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/modal/ModalWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/modal/ModalWindow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/textfields/Input/CustomInput.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/textfields/Input/CustomInput.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Links" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -49,6 +65,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JS\it-incubator\portfolio\src\Links" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\JS\it-incubator\portfolio\src\common\components\textfields\Input" />
       <recent name="E:\JS\it-incubator\portfolio\src\components" />
@@ -75,7 +94,7 @@
       <workItem from="1641727968898" duration="121000" />
       <workItem from="1642437824042" duration="2844000" />
       <workItem from="1642455496627" duration="3401000" />
-      <workItem from="1642512427740" duration="5055000" />
+      <workItem from="1642512427740" duration="18977000" />
     </task>
     <task id="LOCAL-00001" summary="some changes in package.json">
       <created>1639520680107</created>
@@ -140,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642459050483</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="corrected modal size with media-queries, added some styles and elements for description and project image">
+      <created>1642517965122</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642517965122</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +194,7 @@
     <MESSAGE value="cosmetic changes in skills block" />
     <MESSAGE value="finished input styles" />
     <MESSAGE value="created modal window component without content" />
-    <option name="LAST_COMMIT_MESSAGE" value="created modal window component without content" />
+    <MESSAGE value="corrected modal size with media-queries, added some styles and elements for description and project image" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected modal size with media-queries, added some styles and elements for description and project image" />
   </component>
 </project>
