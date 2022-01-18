@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89669573-4e88-4588-aac7-64bee6b6d2e0" name="Changes" comment="finished input styles">
-      <change afterPath="$PROJECT_DIR$/src/common/components/modal/ModalWindow.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/modal/ModalWindow.tsx" afterDir="false" />
+    <list default="true" id="89669573-4e88-4588-aac7-64bee6b6d2e0" name="Changes" comment="created modal window component without content">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/Form.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Form.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Project/Project.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Project/Project.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/Project/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Project/Project.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/textfields/Input/CustomInput.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/textfields/Input/CustomInput.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/textfields/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/textfields/Input/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/modal/ModalWindow.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/modal/ModalWindow.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +74,8 @@
       <workItem from="1641407153563" duration="9575000" />
       <workItem from="1641727968898" duration="121000" />
       <workItem from="1642437824042" duration="2844000" />
-      <workItem from="1642455496627" duration="3322000" />
+      <workItem from="1642455496627" duration="3401000" />
+      <workItem from="1642512427740" duration="5055000" />
     </task>
     <task id="LOCAL-00001" summary="some changes in package.json">
       <created>1639520680107</created>
@@ -137,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641418759337</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="created modal window component without content">
+      <created>1642459050483</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642459050483</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +167,7 @@
     <MESSAGE value="changed description block in skill component, added some cosmetic features" />
     <MESSAGE value="cosmetic changes in skills block" />
     <MESSAGE value="finished input styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished input styles" />
+    <MESSAGE value="created modal window component without content" />
+    <option name="LAST_COMMIT_MESSAGE" value="created modal window component without content" />
   </component>
 </project>
