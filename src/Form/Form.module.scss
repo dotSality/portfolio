@@ -47,6 +47,7 @@
       color: $descriptionColor;
       font-size: 18px;
       font-family: $fontFamily;
+      transition: 0.3s;
 
       @media screen and (max-width: 512px) {
         font-size: 16px;
@@ -55,6 +56,7 @@
       &:hover {
         border: 2px solid $customInputOutlineActive;
         color: $customInputOutlineActive;
+        transition: 0.3s;
 
         &:active {
           outline: 1px dotted $customInputOutlineActive;
