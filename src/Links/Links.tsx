@@ -10,7 +10,7 @@ import {Link} from './Link/Link';
 
 export const Links = () => {
 
-    const [active, setActive] = useState<boolean>(true)
+    const [active, setActive] = useState<boolean>(false)
 
     const toggleActive = () => setActive(!active)
 
