@@ -20,9 +20,8 @@ export const ModalWindow = ({active, setActive, children}: ModalWindowPropsType)
         <div onClick={offActive} className={active ? `${s.active} ${s.modal}` : s.active}>
             <div className={s.content} onClick={e => e.stopPropagation()}>
                 <div className={s.closeContainer}>
-                    <div className={s.bufer}>
+                    <div className={s.bufer} onMouseEnter={onHover} onMouseLeave={offHover}>
                         <div style={{backgroundImage: `url(${hover ? brown : grey})`}}
-                            onMouseEnter={onHover} onMouseLeave={offHover}
                             onClick={offActive} className={s.close}></div>
                     </div>
                 </div>
