@@ -7,7 +7,7 @@
   flex-direction: column;
   align-items: center;
   width: 80px;
-  height: 280px;
+  height: 320px;
   bottom: 80px;
   z-index: 3;
 
@@ -24,28 +24,66 @@
     }
   }
 
-  .arrow {
-    border: 1px solid $inputTextColor;
+  .mark {
+    margin: 0 10px 0 0;
+    align-self: flex-end;
     position: relative;
-    margin-top: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: $inputTextColor;
+    width: 13px;
+    height: 13px;
     background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
     z-index: 5;
-    transform: rotateZ(90deg);
-    transition: 0.5s;
 
     &:hover {
-      border-color: $customInputOutlineActive;
-      background-color: $customInputOutlineActive;
-    }
+      margin: 2px 12px 2px 2px;
+      width: 9px;
+      height: 9px;
 
-    &.arrowActive {
-      transform: rotateZ(-90deg);
+      &:active {
+        margin: 23px 13px 3px 3px;
+        width: 8px;
+        height: 8px;
+      }
     }
   }
+
+  .burgerContainer {
+    position: relative;
+    right: 0;
+    transition: all 0.5s ease;
+    opacity: 1;
+
+    &.activeBurgerContainer {
+      right: 150%;
+      opacity: 0;
+    }
+
+    .burger {
+      position: relative;
+      margin: 20px 0 0 0;
+      right: 0;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      cursor: pointer;
+      z-index: 5;
+
+      &:hover {
+        margin: 22px 2px 2px 2px;
+        width: 36px;
+        height: 36px;
+
+        &:active {
+          margin: 23px 3px 3px 3px;
+          width: 34px;
+          height: 34px;
+        }
+      }
+    }
+  }
+
+
 }
