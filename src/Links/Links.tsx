@@ -22,9 +22,6 @@ export const Links = () => {
     return (
         <div className={s.mainContainer}>
             <div className={`${s_c.contentContainer} ${linksContainerClassName}`}>
-                <div onClick={offActiveHandler}
-                    style={{backgroundImage: `url(${x})`}} className={s.mark}>
-                </div>
                 <Link backgroundImage={vk}
                     href={'https://vk.com/salityy'}/>
                 <Link backgroundImage={telegram}
@@ -33,6 +30,9 @@ export const Links = () => {
                     href={'https://www.instagram.com/the.sality/'}/>
                 <Link backgroundImage={linkedIn}
                     href={'https://www.linkedin.com/in/maxim-ostapkevich-37073822b/'}/>
+                <div onClick={offActiveHandler}
+                    style={{backgroundImage: `url(${x})`}} className={s.mark}>
+                </div>
             </div>
             <div className={burgerClassName}>
                 <div onClick={onActiveHandler}

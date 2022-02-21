@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89669573-4e88-4588-aac7-64bee6b6d2e0" name="Changes" comment="form button animation, modal closing corrected">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="89669573-4e88-4588-aac7-64bee6b6d2e0" name="Changes" comment="fixed menu: changed icon to burger svg, added x-mark closing svg, fixed styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Links/Links.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Links/Links.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Links/Links.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Links/Links.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Nav/Nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nav/Nav.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/modal/ModalWindow.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/modal/ModalWindow.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nav/Nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/components/modal/ModalWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/modal/ModalWindow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +93,14 @@
       <workItem from="1644153292567" duration="25000" />
       <workItem from="1644231267132" duration="126000" />
       <workItem from="1644495765987" duration="410000" />
-      <workItem from="1644589341286" duration="8902000" />
+      <workItem from="1644589341286" duration="9180000" />
+      <workItem from="1644599083978" duration="1199000" />
+      <workItem from="1645359919015" duration="66000" />
+      <workItem from="1645360538736" duration="47000" />
+      <workItem from="1645360756959" duration="77000" />
+      <workItem from="1645461238465" duration="1103000" />
+      <workItem from="1645462375768" duration="116000" />
+      <workItem from="1645462506363" duration="1492000" />
     </task>
     <task id="LOCAL-00001" summary="some changes in package.json">
       <created>1639520680107</created>
@@ -188,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642540614170</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fixed menu: changed icon to burger svg, added x-mark closing svg, fixed styles">
+      <created>1644598622121</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1644598622121</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +239,7 @@
     <MESSAGE value="replaced social media links to bottom-left corner with appearing animation, updated modal window with closing X mark" />
     <MESSAGE value="replaced links' state with false" />
     <MESSAGE value="form button animation, modal closing corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value="form button animation, modal closing corrected" />
+    <MESSAGE value="fixed menu: changed icon to burger svg, added x-mark closing svg, fixed styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed menu: changed icon to burger svg, added x-mark closing svg, fixed styles" />
   </component>
 </project>

@@ -1,8 +1,14 @@
 .header {
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 80px;
+    pointer-events: all;
+    z-index: 3;
+    background-color: rgba(43,43,48,0.5);
+
     a {
         text-decoration: none;
         color: #ddd;
