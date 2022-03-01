@@ -1,4 +1,4 @@
-import './App.scss';
+import './App.module.scss';
 import {Header} from './Header/Header';
 import {Main} from './Main/Main';
 import {Skills} from './Skills/Skills';
@@ -10,7 +10,7 @@ import {Links} from './Links/Links';
 const App = () => {
 
     return (
-        <div className="App">
+        <div>
             <Header/>
             <Main/>
             <Skills/>

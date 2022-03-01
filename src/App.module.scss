@@ -1,0 +1,14 @@
+@import './src/common/styles/sass/variables';
+
+.content {
+  width: 100%;
+
+  > div {
+    &:nth-child(n) {
+      background-color: $bodyBGColor;
+    }
+    &:nth-child(2n) {
+      background-color: $secondaryBGColor;
+    }
+  }
+}
